@@ -168,6 +168,7 @@ body {
 }
 
 .features {
+    margin-top: 250px;
     padding: 80px 0;
     background-color: white;
 }
