@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign Up - HealNexus</title>
+  <link rel="stylesheet" href="./css/signup.css" />
+</head>
+<body>
+  <div class="signup-container">
+    <form id="signupForm" class="signup-form" novalidate>
+      <h2>Create an Account</h2>
+      <p>Join HealNexus and start your journey today!</p>
+
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your full name"
+          required
+          autocomplete="name"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+          autocomplete="email"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+8801XXXXXXXXX"
+          required
+          autocomplete="tel"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Create password"
+          required
+          autocomplete="new-password"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Confirm password"
+          required
+          autocomplete="new-password"
+        />
+        <small class="error-message"></small>
+      </div>
+
+      <button type="submit" class="submit-btn">Sign Up</button>
+
+      <p class="login-text">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </form>
+  </div>
+
+  <script src="./script/signup.js"></script>
+</body>
+</html>
