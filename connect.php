@@ -1,3 +1,5 @@
+
+<?php
 $host = "localhost";
 $username = "root";
 $password = "";
@@ -12,3 +14,4 @@ if (!$conn) {
 } else {
     echo "Connected successfully";
 }
+?>
