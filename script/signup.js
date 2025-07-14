@@ -26,9 +26,7 @@ form.addEventListener("submit", function (e) {
     passwordValid &&
     confirmPasswordValid
   ) {
-    alert("Sign up successful!");
-    form.reset();
-    clearErrors();
+   form.submit();
   }
 });
 
