@@ -12,9 +12,7 @@ form.addEventListener('submit', function (e) {
   const passwordValid = validatePassword();
 
   if (emailValid && passwordValid) {
-    alert("Login successful!");
-    form.reset();
-    clearErrors();
+    form.submit();
   }
 });
 
